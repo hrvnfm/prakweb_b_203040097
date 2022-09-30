@@ -52,7 +52,7 @@ if (isset($_POST['ubah'])) {
       </div>
         <div class="form-group">
             <span>Picture</span>
-            <input type="file" class="form-control" value="<?= $result['gambar']; ?>" name="gambar" id="gambar" required><br>
+            <input type="file" class="form-control" value="<?= $result['gambar']; ?>" name="gambar" id="gambar" ><br>
         </div>
       <div class="form-group">
         <label for="harga">Price</label>

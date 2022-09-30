@@ -1,8 +1,8 @@
 <?php 
 require 'functions.php';
-$id = $_GET['id'];
+$id_buku = $_GET['id_buku'];
 
-if (hapus($id) > 0) {
+if (hapus($id_buku) > 0) {
     echo "<script>
             alert('Data Sucessfully Deleted');
             document.location.href = 'admin.php';

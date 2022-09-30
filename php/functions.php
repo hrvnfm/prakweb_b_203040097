@@ -57,7 +57,7 @@ function ubah($data)
     $harga = htmlspecialchars($data['harga']);
     $keterangan = htmlspecialchars($data['keterangan']);
 
-    $query = "UPDATE barang
+    $query = "UPDATE buku
             SET
             nama_buku = '$nama_buku',
             tahun_terbit = '$tahun_terbit',
